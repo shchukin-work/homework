@@ -66,3 +66,4 @@ def my_print(text):
         print_list.append(text[i][0:1].title() + text[i][1:])
     return ' '.join(print_list)
 print(my_print(input('Введите несколько слов с латинским строчным написанием, разделенных пробелом: ').split()))
+
